@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar text-white bg-info text-center\">\n  <h2>Social Presentation</h2>\n  <small>GenerazioneY</small>\n</nav>\n\n<br>\n\n<div class=\"container-fluid\">\n  <div class=\"row jumbotron\">\n\n    <div class=\"col-3 text-center\">\n      <i class=\"fa fa-facebook-square fa-lg sp-icon\" (click)=\"initChart('fb')\"></i>\n      <div class=\"under-icon\"></div>\n    </div>\n\n    <div class=\"col-3 text-center\">\n      <i class=\"fa fa-instagram fa-lg sp-icon\"       (click)=\"initChart('ig')\"></i>\n      <div class=\"under-icon\"></div>\n    </div>\n\n    <div class=\"col-3 text-center\">\n      <i class=\"fa fa-twitter-square fa-lg sp-icon\"  (click)=\"initChart('tw')\"></i>\n      <div class=\"under-icon\"></div>\n    </div>\n\n    <div class=\"col-3 text-center\">\n      <i class=\"fa fa-youtube-square fa-lg sp-icon\"  (click)=\"initChart('yt')\"></i>\n      <div class=\"under-icon\"></div>\n    </div>\n\n  </div>\n</div>\n\n<label class=\"container_checkmark pull-right\">\n  <input type=\"checkbox\" [(ngModel)]=\"isChecked\" (change)=\"onlyProv(isChecked)\">\n  <span class=\"checkmark\"></span>\n  &nbsp; <small>Mostra solo province</small>\n</label>\n<div style=\"clear: both;\"></div>\n\n<div id=\"chartdiv\"></div>\n\n<footer>\n  <nav class=\"navbar bg-info text-center text-white\">\n    <span class=\"text-center\" style=\"width: 100%\">\n      Coded By <a href=\"https://github.com/Helias\" class=\"text-white\">Stefano Borzì</a> & <a href=\"https://github.com/daxcpp\" class=\"text-white\">Davide Carnemolla</a>\n    </span>\n  </nav>\n</footer>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar text-white bg-info text-center\">\n  <h2>Social Presentation</h2>\n  <small>GenerazioneY</small>\n</nav>\n\n<br>\n\n<div class=\"container-fluid\">\n  <div class=\"row jumbotron\">\n\n    <div class=\"col-3 text-center\">\n      <i class=\"fa fa-facebook-square fa-lg sp-icon\" (click)=\"loadChartData('fb')\"></i>\n      <div class=\"under-icon\"></div>\n    </div>\n\n    <div class=\"col-3 text-center\">\n      <i class=\"fa fa-instagram fa-lg sp-icon\"       (click)=\"loadChartData('ig')\"></i>\n      <div class=\"under-icon\"></div>\n    </div>\n\n    <div class=\"col-3 text-center\">\n      <i class=\"fa fa-twitter-square fa-lg sp-icon\"  (click)=\"loadChartData('tw')\"></i>\n      <div class=\"under-icon\"></div>\n    </div>\n\n    <div class=\"col-3 text-center\">\n      <i class=\"fa fa-youtube-square fa-lg sp-icon\"  (click)=\"loadChartData('yt')\"></i>\n      <div class=\"under-icon\"></div>\n    </div>\n\n  </div>\n</div>\n\n<label class=\"container_checkmark pull-right\">\n  <input type=\"checkbox\" [(ngModel)]=\"isChecked\" (change)=\"onlyProv(isChecked)\">\n  <span class=\"checkmark\"></span>\n  &nbsp; <small>Mostra solo province</small>\n</label>\n<div style=\"clear: both;\"></div>\n\n<div id=\"chartdiv\"></div>\n\n<footer>\n  <nav class=\"navbar bg-info text-center text-white\">\n    <span class=\"text-center\" style=\"width: 100%\">\n      Coded By <a href=\"https://github.com/Helias\" class=\"text-white\">Stefano Borzì</a> & <a href=\"https://github.com/daxcpp\" class=\"text-white\">Davide Carnemolla</a>\n    </span>\n  </nav>\n</footer>\n");
 
 /***/ }),
 
@@ -338,7 +338,7 @@ let AppComponent = class AppComponent {
     }
     onlyProv(value) {
         this._prov = value;
-        this.initChart(null);
+        this.loadChartData(null);
     }
     getDataSocial(social) {
         switch (social) {
@@ -357,21 +357,11 @@ let AppComponent = class AppComponent {
     getValue(i) {
         return (+i.Followers / +i.Residenti);
     }
-    initChart(social) {
+    loadChartData(social) {
         if (social) {
             this._social = social;
         }
-        if (this.chart) {
-            this.chart.dispose();
-        }
         const SOCIAL_DATA = this.getDataSocial(this._social);
-        const am4geodata_sicilyHigh = {
-            type: 'FeatureCollection',
-            features: [_amcharts_amcharts4_geodata_italyHigh__WEBPACK_IMPORTED_MODULE_5__["default"].features[22]] // Sicily feature
-        };
-        const chart = _amcharts_amcharts4_core__WEBPACK_IMPORTED_MODULE_2__["create"]('chartdiv', _amcharts_amcharts4_maps__WEBPACK_IMPORTED_MODULE_3__["MapChart"]);
-        chart.geodata = am4geodata_sicilyHigh;
-        chart.projection = new _amcharts_amcharts4_maps__WEBPACK_IMPORTED_MODULE_3__["projections"].Miller();
         const mapData = [];
         const province = ['Catania', 'Agrigento', 'Trapani', 'Enna', 'Ragusa', 'Caltanissetta', 'Siracusa', 'Palermo', 'Messina'];
         for (const i of SOCIAL_DATA) {
@@ -387,14 +377,10 @@ let AppComponent = class AppComponent {
                 longitude: i.Longitudine
             });
         }
-        const polygonSeries = chart.series.push(new _amcharts_amcharts4_maps__WEBPACK_IMPORTED_MODULE_3__["MapPolygonSeries"]());
-        polygonSeries.useGeodata = true;
-        polygonSeries.mapPolygons.template.events.on('hit', (ev) => {
-            chart.zoomToMapObject(ev.target);
-        });
-        // const polygonTemplate = polygonSeries.mapPolygons.template;
-        // polygonTemplate.fill = am4core.color('#546e7a');
-        const imageSeries = chart.series.push(new _amcharts_amcharts4_maps__WEBPACK_IMPORTED_MODULE_3__["MapImageSeries"]());
+        if (this.chart.series.length > 1) {
+            this.chart.series.removeIndex(1);
+        }
+        const imageSeries = this.chart.series.push(new _amcharts_amcharts4_maps__WEBPACK_IMPORTED_MODULE_3__["MapImageSeries"]());
         imageSeries.data = mapData;
         imageSeries.dataFields.value = 'value';
         const imageTemplate = imageSeries.mapImages.template;
@@ -417,10 +403,28 @@ let AppComponent = class AppComponent {
             max: 40,
             dataField: 'value'
         });
+    }
+    initChart() {
+        if (this.chart) {
+            this.chart.dispose();
+        }
+        const am4geodata_sicilyHigh = {
+            type: 'FeatureCollection',
+            features: [_amcharts_amcharts4_geodata_italyHigh__WEBPACK_IMPORTED_MODULE_5__["default"].features[22]] // Sicily feature
+        };
+        const chart = _amcharts_amcharts4_core__WEBPACK_IMPORTED_MODULE_2__["create"]('chartdiv', _amcharts_amcharts4_maps__WEBPACK_IMPORTED_MODULE_3__["MapChart"]);
+        chart.geodata = am4geodata_sicilyHigh;
+        chart.projection = new _amcharts_amcharts4_maps__WEBPACK_IMPORTED_MODULE_3__["projections"].Miller();
+        const polygonSeries = chart.series.push(new _amcharts_amcharts4_maps__WEBPACK_IMPORTED_MODULE_3__["MapPolygonSeries"]());
+        polygonSeries.useGeodata = true;
+        polygonSeries.mapPolygons.template.events.on('hit', (ev) => {
+            chart.zoomToMapObject(ev.target);
+        });
         this.chart = chart;
+        this.loadChartData(null);
     }
     ngAfterViewInit() {
-        this.initChart('fb');
+        this.initChart();
     }
     ngOnDestroy() {
         this.zone.runOutsideAngular(() => {
