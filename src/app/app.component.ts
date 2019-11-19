@@ -46,7 +46,7 @@ export class AppComponent implements AfterViewInit, OnDestroy {
 
   onlyProv(value: boolean) {
     this._prov = value;
-    this.initChart(null);
+    this.loadChartData(null);
   }
 
   private getDataSocial(social: string) {
@@ -68,29 +68,13 @@ export class AppComponent implements AfterViewInit, OnDestroy {
     return (+i.Followers / +i.Residenti);
   }
 
-  initChart(social: string|null): void {
-
+  loadChartData(social: string|null) {
     if (social) {
       this._social = social;
     }
 
-    if (this.chart) {
-      this.chart.dispose();
-    }
-
     const SOCIAL_DATA = this.getDataSocial(this._social);
-
-    const am4geodata_sicilyHigh = {
-      type: 'FeatureCollection',
-      features: [am4geodata_italyHigh.features[22]] // Sicily feature
-    };
-
-    const chart = am4core.create('chartdiv', am4maps.MapChart);
-    chart.geodata = am4geodata_sicilyHigh;
-    chart.projection = new am4maps.projections.Miller();
-
     const mapData = [];
-
     const province = ['Catania', 'Agrigento', 'Trapani', 'Enna', 'Ragusa', 'Caltanissetta', 'Siracusa', 'Palermo', 'Messina'];
 
     for (const i of SOCIAL_DATA) {
@@ -108,16 +92,11 @@ export class AppComponent implements AfterViewInit, OnDestroy {
       });
     }
 
-    const polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
-    polygonSeries.useGeodata = true;
-    polygonSeries.mapPolygons.template.events.on('hit', (ev) => {
-      chart.zoomToMapObject(ev.target);
-    });
+    if (this.chart.series.length > 1) {
+      this.chart.series.removeIndex(1);
+    }
 
-    // const polygonTemplate = polygonSeries.mapPolygons.template;
-    // polygonTemplate.fill = am4core.color('#546e7a');
-
-    const imageSeries = chart.series.push(new am4maps.MapImageSeries());
+    const imageSeries = this.chart.series.push(new am4maps.MapImageSeries());
     imageSeries.data = mapData;
     imageSeries.dataFields.value = 'value';
 
@@ -143,12 +122,35 @@ export class AppComponent implements AfterViewInit, OnDestroy {
       max: 40,
       dataField: 'value'
     });
+  }
+
+  private initChart(): void {
+
+    if (this.chart) {
+      this.chart.dispose();
+    }
+
+    const am4geodata_sicilyHigh = {
+      type: 'FeatureCollection',
+      features: [am4geodata_italyHigh.features[22]] // Sicily feature
+    };
+
+    const chart = am4core.create('chartdiv', am4maps.MapChart);
+    chart.geodata = am4geodata_sicilyHigh;
+    chart.projection = new am4maps.projections.Miller();
+
+    const polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+    polygonSeries.useGeodata = true;
+    polygonSeries.mapPolygons.template.events.on('hit', (ev) => {
+      chart.zoomToMapObject(ev.target);
+    });
 
     this.chart = chart;
+    this.loadChartData(null);
   }
 
   ngAfterViewInit() {
-    this.initChart('fb');
+    this.initChart();
   }
 
   ngOnDestroy() {
