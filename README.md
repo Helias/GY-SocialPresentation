@@ -1,6 +1,6 @@
-# SocialPresentation
+# GY-SocialPresentation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
+This is a comparison of all Sicily cities activities on the followings social network: Facebook, Instagram, Twitter and Youtube.
 
 ## Development server
 
