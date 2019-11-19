@@ -2,6 +2,8 @@
 
 This is a comparison of all Sicily cities activities on the followings social network: Facebook, Instagram, Twitter and Youtube.
 
+## [Live Demo](https://helias.github.io/GY-SocialPresentation/)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
