@@ -7,6 +7,7 @@ import FB_DATA from '../assets/all_fb.json';
 import IG_DATA from '../assets/all_ig.json';
 import TW_DATA from '../assets/all_tw.json';
 import YT_DATA from '../assets/all_yt.json';
+import FREQ from '../assets/freq_univ.json';
 
 am4core.useTheme(am4themes_animated);
 
@@ -22,6 +23,7 @@ export class AppComponent implements AfterViewInit, OnDestroy {
 
   private _prov = false;
   private _social = 'fb';
+  readonly MAX_FREQUENZA = 5;
 
   private getColor(value: number): string {
 
@@ -65,7 +67,18 @@ export class AppComponent implements AfterViewInit, OnDestroy {
   }
 
   private getValue(i) {
-    return (+i.Followers / +i.Residenti);
+    const param1 = (+i.Followers / +i.Residenti);
+
+    if (this._social !== 'yt') {
+      let frequenza = i.Frequenza != '' ? i.Frequenza.trim().toLowerCase() : i.Frequenza;
+      frequenza = FREQ[frequenza] != null ? FREQ[frequenza] : 0;
+
+      const param2 = frequenza / this.MAX_FREQUENZA;
+
+      return (param1 + param2) / 2;
+    }
+
+    return param1;
   }
 
   loadChartData(social: string|null) {
