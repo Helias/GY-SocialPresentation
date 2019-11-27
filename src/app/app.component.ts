@@ -23,7 +23,13 @@ export class AppComponent implements AfterViewInit, OnDestroy {
 
   private _prov = false;
   private _social = 'fb';
+
   readonly MAX_FREQUENZA = 5;
+  readonly formula = `$$ V = \\frac{ \\frac{Followers}{Residenti} + \\frac{Frequenza\\_Post}{max\\_frequenza\\_post} }{2} $$`;
+
+  mappaCollapse = true;
+  noteCollapse = true;
+  statsCollapse = true;
 
   private getColor(value: number): string {
 

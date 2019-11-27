@@ -40,6 +40,154 @@
 
 <div id="chartdiv"></div>
 
+<br>
+
+<div class="container">
+
+    <button type="button" class="btn btn-primary" (click)="mappaCollapse = !mappaCollapse" [attr.aria-expanded]="!mappaCollapse" aria-controls="mappaDesc">
+      Mappa & Valori
+    </button>
+    <hr>
+    <div id="mappaDesc" [collapse]="mappaCollapse" [isAnimated]="true">
+      <p>Ogni circonferenza nella mappa rappresenta un comune, passando il cursore del mouse sopra la circonferenza è possibile visualizzare il numero di residenti del relativo comune.</p>
+      <p>La dimensione della circonferenza è definita dal numero di residenti, il colore della circonferenza è definito da una formula che considera il numero di followers e la frequenza dei post della pagina del social network selezionato.</p>
+      <p>Se la circonferenza è bianca, significa che il comune non è presente nel social network selezionato.</p>
+      <p>La formula considerata è la seguente:</p>
+
+      <div>
+        <ng-katex-paragraph [paragraph]="formula"></ng-katex-paragraph>
+      </div>
+    </div>
+
+
+    <button type="button" class="btn btn-primary" (click)="noteCollapse = !noteCollapse" [attr.aria-expanded]="!noteCollapse" aria-controls="note">
+      Note Metodologiche
+    </button>
+    <hr>
+    <div id="note" [collapse]="noteCollapse" [isAnimated]="true">
+      <p><b>REPORT DI MONITORAGGIO CIVICO “LA COMUNICAZIONE SOCIAL DEI COMUNI SICILIANI”.</b></p>
+      <p><b>Data inizio monitoraggio:</b>30 luglio 2019</p>
+      <p><b>Data fine monitoraggio:</b>03 settembre 2019</p>
+      <p><b>Enti monitorati:</b>390 Comuni della Sicilia.</p>
+      <p><b>Fonte di riferimento utilizzata per effettuare l’attività di monitoraggio civico:</b>Vademecum “<i>Pubblica Amministrazione e social media</i>”, a cura di Formez PA (scaricabile al seguente link: <a href="http://www.formez.it/notizie/online-il-vademecum-pubblica-amministrazione-e-social-media.html">http://www.formez.it/notizie/online-il-vademecum-pubblica-amministrazione-e-social-media.html</a>), realizzato nell’ambito delle attività finalizzate all’elaborazione delle Linee guida per i siti web delle Pubbliche Amministrazioni, previste dalla Direttiva n. 8 del 26 novembre 2009 del Ministro per la pubblica amministrazione e l’innovazione, dicembre 2011.</p>
+      <p><b>NB:</b>I dati utilizzati per realizzare il presente Report sono di dominio pubblico, in quanto pubblicamente disponibili, visualizzabili e reperibili all’interno dei principali social network monitorati nell’ambito del presente Report.</p>
+      <p>I Parametri di monitoraggio utilizzati sono i seguenti:</p>
+      
+      <p>
+        Link Pagina/Profilo/Account Social Network:
+        <br>Data di creazione:
+        <br>Numero Like Pagina/Profilo: 
+        <br>Followers:
+        <br>Following:
+        <br>Iscritti:
+        <br>Post:
+        <br>Frequenza di pubblicazione:
+        <br>Persone che gestiscono la pagina:
+        <br>Numero di post con hashtag #nomecomune
+        <br>Numero Video:
+        <br>Numero di Views totali:
+      </p>
+
+      <p>I dati riportati possono essere suscettibili di variazioni e modificazioni dalla data di completamento dal monitoraggio alla data di pubblicazione dei relativi risultati successiva alle fasi di analisi, rilevazione e comparazione effettuate dal team di attivisti volontari coinvolti nel progetto.</p>
+      <p><b>PS:</b> Il presente Report è realizzato come progetto di “<i>Civic Activism</i>”, diretto a monitorare il flusso comunicativo dei Comuni visibile sui social network, secondo il tipico modello partecipativo di OpenGov, per fornire uno spunto di riflessione – soggettivo e opinabile - sull’impatto sociale delle nuove tecnologie e contribuire, con spirito costruttivo, alla diffusione della cultura digitale.</p>
+      <p>Il presente Caso di Studio è finalizzato a favorire la partecipazione interattiva dal basso degli utenti/cittadini, nonché a stimolare processi di governance aperti e trasparenti, con l’obiettivo di creare un sistema di reciproca fiducia sull’operato e sulle scelte delle amministrazioni e contribuire al progressivo incremento della qualità della trasparenza delle PA, attraverso proposte, suggerimenti e iniziative, con funzioni propositive di stimolo e di impulso, nell’ambito di una rete collaborativa paritaria costituita da enti pubblici, organizzazioni no-profit e cittadini, in grado di realizzare un innovativo modello orizzontale e partecipativo, in cui il processo decisionale costituisce il risultato del dialogo e della collaborazione tra istituzioni e cittadini.</p>
+    </div>
+
+    <button type="button" class="btn btn-primary" (click)="statsCollapse = !statsCollapse" [attr.aria-expanded]="!statsCollapse" aria-controls="stats">
+      Dati statistici riassuntivi
+    </button>
+    <hr>
+    <div id="stats" [collapse]="statsCollapse" [isAnimated]="true">
+        <br><b>Provincia: Agrigento (AG)</b>
+        <br>Comuni monitorati: 43
+        <br>Pagine Facebook attive: 25
+        <br>Profili Twitter attivi: 3
+        <br>Profili Instagram attivi: 3
+        <br>Canali YouTube attivi: 11
+        <br>Profili LinkedIn attivi: 0
+        <br>
+        <br>
+        <br><b>Provincia: Caltanissetta (CL)</b>
+        <br>Comuni monitorati: 22
+        <br>Pagine Facebook attive: 19
+        <br>Profili Twitter attivi: 1
+        <br>Profili Instagram attivi: 2
+        <br>Canali YouTube attivi: 9
+        <br>Profili LinkedIn attivi: 0
+        <br>
+        <br>
+        <br><b>Provincia: Catania (CT)</b>
+        <br>Comuni monitorati: 58
+        <br>Profili Facebook attivi: 52
+        <br>Profili Twitter attivi: 10
+        <br>Profili YouTube attivi: 27
+        <br>Profili Instagram attivi: 13
+        <br>Profili LinkedIn attivi: 3 (Comune di Catania, Comune di Giarre, Comune di Zafferana Etnea)
+        <br>
+        <br>
+        <br><b>Provincia: ENNA (EN)</b>
+        <br>Comuni monitorati: 20
+        <br>Pagine Facebook attive: 14
+        <br>Profili Twitter attivi: 4
+        <br>Profili Instagram attivi: 1
+        <br>Canali YouTube attivi: 7
+        <br>Profili LinkedIn attivi: 1 (Comune di Nicosia)
+        <br>
+        <br>
+        <br><b>Provincia: Messina (ME)</b>
+        <br>Comuni monitorati: 108
+        <br>Pagine Facebook attive: 80
+        <br>Profili Twitter attivi: 14
+        <br>Profili Instagram attivi: 8
+        <br>Canali YouTube attivi: 27
+        <br>Profili LinkedIn attivi: 1 (Comune di Tusa)
+        <br>
+        <br>
+        <br>
+        <br><b>Provincia: PALERMO (PA)</b>
+        <br>Comuni monitorati: 82
+        <br>Pagine Facebook attive: 67
+        <br>Profili Twitter attivi: 11
+        <br>Profili Instagram attivi: 16
+        <br>Canali YouTube attivi: 23
+        <br>Profili LinkedIn attivi: 3 (Comune di Bagheria, Comune di Cefalù, Comune di Palermo)
+        <br>
+        <br>
+        <br><b>Provincia: Ragusa (RG)</b>
+        <br>Comuni monitorati: 12
+        <br>Profili Facebook attivi: 11
+        <br>Profili Twitter attivi: 5
+        <br>Profili YouTube attivi: 5
+        <br>Profili Instagram attivi: 3
+        <br>Profili LinkedIn attivi: 1 (Comune di Ragusa)
+        <br>
+        <br>
+        <br><b>Provincia: Siracusa (SR)</b>
+        <br>Comuni monitorati: 21
+        <br>Pagine Facebook attive: 19
+        <br>Profili Twitter attivi: 6
+        <br>Profili Instagram attivi: 7
+        <br>Canali YouTube attivi: 10
+        <br>Profili LinkedIn attivi: 1 (Comune di Portopalo)
+        <br>
+        <br>
+        <br><b>Provincia Trapani (TP)</b>
+        <br>Comuni monitorati: 24
+        <br>Pagine Facebook attive: 18
+        <br>Profili Twitter attivi: 5
+        <br>Profili Instagram attivi: 2
+        <br>Canali YouTube attivi: 12
+        <br>Profili LinkedIn attivi: 0
+    </div>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <footer>
   <nav class="navbar bg-info text-center text-white">
     <span class="text-center" style="width: 100%">
