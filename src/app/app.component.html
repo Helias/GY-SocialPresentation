@@ -180,6 +180,14 @@
         <br>Profili LinkedIn attivi: 0
     </div>
 
+    <button type="button" class="btn btn-primary" (click)="issuesCollapse = !issuesCollapse" [attr.aria-expanded]="!issuesCollapse" aria-controls="issues">
+      Problemi? Invia una segnalazione
+    </button>
+    <hr>
+    <div id="issues" [collapse]="issuesCollapse" [isAnimated]="true">
+      Se riscontri errori e vuoi inviare una segnalazione all'autore, puoi inviare un email a <i class="fa fa-envelope-square"></i> stefanoborzi32@gmail.com
+    </div>
+
 </div>
 
 <br>
@@ -191,7 +199,8 @@
 <footer>
   <nav class="navbar bg-info text-center text-white">
     <span class="text-center" style="width: 100%">
-      Coded By <a href="https://github.com/Helias" class="text-white">Stefano Borzì</a> & <a href="https://github.com/daxcpp" class="text-white">Davide Carnemolla</a>
+      Coded By <a href="https://github.com/Helias" class="text-white">Stefano Borzì</a> & <a href="https://github.com/daxcpp" class="text-white">Davide Carnemolla</a><br>
+      <i class="fa fa-copyright"></i> - <a href="http://creativecommons.org/licenses/by/3.0/it/"><img src="../assets/cc.png"></a> & <a href="https://www.gnu.org/licenses/quick-guide-gplv3.it.html" class="text-white">GPLv3</a>
     </span>
   </nav>
 </footer>
