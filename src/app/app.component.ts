@@ -73,7 +73,11 @@ export class AppComponent implements AfterViewInit, OnDestroy {
   }
 
   private getValue(i) {
-    const param1 = (+i.Followers / +i.Residenti);
+    let param1 = (+i.Followers / +i.Residenti);
+
+    if (isNaN(i.Followers)) {
+      param1 = (+i.Likes / +i.Residenti);
+    }
 
     if (this._social !== 'yt') {
       let frequenza = i.Frequenza != '' ? i.Frequenza.trim().toLowerCase() : i.Frequenza;
@@ -82,12 +86,19 @@ export class AppComponent implements AfterViewInit, OnDestroy {
       const param2 = frequenza / this.MAX_FREQUENZA;
 
       return (param1 + param2) / 2;
-    }
+    } else {
+      const param2 = +i['Numero di views totali'] / +i.Residenti;
 
-    return param1;
+      if (isNaN(param1)) {
+        param1 = 0;
+      }
+
+      return (param1 + param2) / 2;
+    }
   }
 
   loadChartData(social: string|null) {
+
     if (social) {
       this._social = social;
     }

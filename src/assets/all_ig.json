@@ -349,6 +349,23 @@
     "Frequenza": "",
     "Numero di hashtag": "",
     "Followers/Residenti": "0,00",
+    "Latitudine": 37.8426433,
+    "Longitudine": 15.1421309,
+    "Comune": "Linguaglossa",
+    "Residenti": 5357,
+    "Densità per kmq": 92,
+    "Numero Famiglie": 2171
+  },
+  {
+    "Nome Comune": "Maletto",
+    "Prov.": "CT",
+    "Link pagina Instagram": "",
+    "Followers": "",
+    "Following": "",
+    "Post": "",
+    "Frequenza": "",
+    "Numero di hashtag": "",
+    "Followers/Residenti": "0,00",
     "Latitudine": 37.8290222,
     "Longitudine": 14.8656644,
     "Comune": "Maletto",
@@ -357,7 +374,7 @@
     "Numero Famiglie": 1533
   },
   {
-    "Nome Comune": "Maletto",
+    "Nome Comune": "Maniace",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -374,7 +391,7 @@
     "Numero Famiglie": 1467
   },
   {
-    "Nome Comune": "Maniace",
+    "Nome Comune": "Mascali",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -391,7 +408,7 @@
     "Numero Famiglie": 6120
   },
   {
-    "Nome Comune": "Mascali",
+    "Nome Comune": "Mascalucia",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -408,7 +425,7 @@
     "Numero Famiglie": 11730
   },
   {
-    "Nome Comune": "Mascalucia",
+    "Nome Comune": "Mazzarrone",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -425,23 +442,6 @@
     "Numero Famiglie": 1502
   },
   {
-    "Nome Comune": "Mazzarrone",
-    "Prov.": "CT",
-    "Link pagina Instagram": "",
-    "Followers": "",
-    "Following": "",
-    "Post": "",
-    "Frequenza": "",
-    "Numero di hashtag": "",
-    "Followers/Residenti": "0,00",
-    "Latitudine": 37.2752619,
-    "Longitudine": 14.7940604,
-    "Comune": "Militello in Val di Catania",
-    "Residenti": 7334,
-    "Densità per kmq": 118,
-    "Numero Famiglie": 3246
-  },
-  {
     "Nome Comune": "Militello in val di Catania",
     "Prov.": "CT",
     "Link pagina Instagram": "https://instagram.com/militelloinvaldicatania?igshid=168eskvrvxawz",
@@ -451,12 +451,12 @@
     "Frequenza": "Notevole",
     "Numero di hashtag": 1000,
     "Followers/Residenti": "1,64",
-    "Latitudine": 37.7224446,
-    "Longitudine": 15.1157393,
-    "Comune": "Milo",
-    "Residenti": 1072,
-    "Densità per kmq": 59,
-    "Numero Famiglie": 507
+    "Latitudine": 37.2752619,
+    "Longitudine": 14.7940604,
+    "Comune": "Militello in Val di Catania",
+    "Residenti": 7334,
+    "Densità per kmq": 118,
+    "Numero Famiglie": 3246
   },
   {
     "Nome Comune": "Milo",
@@ -468,6 +468,23 @@
     "Frequenza": "Bassa",
     "Numero di hashtag": "500+",
     "Followers/Residenti": "0,09",
+    "Latitudine": 37.7224446,
+    "Longitudine": 15.1157393,
+    "Comune": "Milo",
+    "Residenti": 1072,
+    "Densità per kmq": 59,
+    "Numero Famiglie": 507
+  },
+  {
+    "Nome Comune": "Mineo",
+    "Prov.": "CT",
+    "Link pagina Instagram": "",
+    "Followers": "",
+    "Following": "",
+    "Post": "",
+    "Frequenza": "",
+    "Numero di hashtag": "",
+    "Followers/Residenti": "0,00",
     "Latitudine": 37.2648025,
     "Longitudine": 14.6910374,
     "Comune": "Mineo",
@@ -476,7 +493,7 @@
     "Numero Famiglie": 1997
   },
   {
-    "Nome Comune": "Mineo",
+    "Nome Comune": "Mirabella Imbaccari",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -493,7 +510,7 @@
     "Numero Famiglie": 2121
   },
   {
-    "Nome Comune": "Mirabella Imbaccari",
+    "Nome Comune": "Misterbianco",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -510,7 +527,7 @@
     "Numero Famiglie": 16739
   },
   {
-    "Nome Comune": "Misterbianco",
+    "Nome Comune": "Motta Sant'Anastasia",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -527,7 +544,7 @@
     "Numero Famiglie": 4755
   },
   {
-    "Nome Comune": "Motta Sant'Anastasia",
+    "Nome Comune": "Nicolosi",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -544,7 +561,7 @@
     "Numero Famiglie": 3083
   },
   {
-    "Nome Comune": "Nicolosi",
+    "Nome Comune": "Palagonia",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -561,7 +578,7 @@
     "Numero Famiglie": 6399
   },
   {
-    "Nome Comune": "Palagonia",
+    "Nome Comune": "Paternò",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -578,7 +595,7 @@
     "Numero Famiglie": 17939
   },
   {
-    "Nome Comune": "Paternò",
+    "Nome Comune": "Pedara",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -595,23 +612,6 @@
     "Numero Famiglie": 5635
   },
   {
-    "Nome Comune": "Pedara",
-    "Prov.": "CT",
-    "Link pagina Instagram": "",
-    "Followers": "",
-    "Following": "",
-    "Post": "",
-    "Frequenza": "",
-    "Numero di hashtag": "",
-    "Followers/Residenti": "0,00",
-    "Latitudine": 37.8067066,
-    "Longitudine": 15.1781933,
-    "Comune": "Piedimonte Etneo",
-    "Residenti": 3951,
-    "Densità per kmq": 149,
-    "Numero Famiglie": 1810
-  },
-  {
     "Nome Comune": "Piedimonte Eteneo",
     "Prov.": "CT",
     "Link pagina Instagram": "https://instagram.com/comunedipennapiedimonte?igshid=1xpqvejx4pd57",
@@ -621,12 +621,12 @@
     "Frequenza": "Media",
     "Numero di hashtag": "meno di cento post",
     "Followers/Residenti": "0,11",
-    "Latitudine": 37.4725561,
-    "Longitudine": 14.5325204,
-    "Comune": "Raddusa",
-    "Residenti": 3133,
-    "Densità per kmq": 134,
-    "Numero Famiglie": 1317
+    "Latitudine": 37.8067066,
+    "Longitudine": 15.1781933,
+    "Comune": "Piedimonte Etneo",
+    "Residenti": 3951,
+    "Densità per kmq": 149,
+    "Numero Famiglie": 1810
   },
   {
     "Nome Comune": "Raddusa",
@@ -638,12 +638,12 @@
     "Frequenza": "",
     "Numero di hashtag": "",
     "Followers/Residenti": "0,00",
-    "Latitudine": 37.6369577,
-    "Longitudine": 14.9478757,
-    "Comune": "Ragalna",
-    "Residenti": 3963,
-    "Densità per kmq": 101,
-    "Numero Famiglie": 1825
+    "Latitudine": 37.4725561,
+    "Longitudine": 14.5325204,
+    "Comune": "Raddusa",
+    "Residenti": 3133,
+    "Densità per kmq": 134,
+    "Numero Famiglie": 1317
   },
   {
     "Nome Comune": "Ragalna",
@@ -655,12 +655,12 @@
     "Frequenza": "Media",
     "Numero di hashtag": "Meno di cento post",
     "Followers/Residenti": "0,05",
-    "Latitudine": 37.388048,
-    "Longitudine": 14.692681,
-    "Comune": "Ramacca",
-    "Residenti": 10901,
-    "Densità per kmq": 36,
-    "Numero Famiglie": 4288
+    "Latitudine": 37.6369577,
+    "Longitudine": 14.9478757,
+    "Comune": "Ragalna",
+    "Residenti": 3963,
+    "Densità per kmq": 101,
+    "Numero Famiglie": 1825
   },
   {
     "Nome Comune": "Ramacca",
@@ -672,6 +672,23 @@
     "Frequenza": "Alta",
     "Numero di hashtag": 1000,
     "Followers/Residenti": "0,17",
+    "Latitudine": 37.388048,
+    "Longitudine": 14.692681,
+    "Comune": "Ramacca",
+    "Residenti": 10901,
+    "Densità per kmq": 36,
+    "Numero Famiglie": 4288
+  },
+  {
+    "Nome Comune": "Randazzo",
+    "Prov.": "CT",
+    "Link pagina Instagram": "",
+    "Followers": "",
+    "Following": "",
+    "Post": "",
+    "Frequenza": "",
+    "Numero di hashtag": "",
+    "Followers/Residenti": "0,00",
     "Latitudine": 37.876058,
     "Longitudine": 14.949681,
     "Comune": "Randazzo",
@@ -680,7 +697,7 @@
     "Numero Famiglie": 4627
   },
   {
-    "Nome Comune": "Randazzo",
+    "Nome Comune": "Riposto",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -697,7 +714,7 @@
     "Numero Famiglie": 6141
   },
   {
-    "Nome Comune": "Riposto",
+    "Nome Comune": "San Cono",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -714,7 +731,7 @@
     "Numero Famiglie": 1263
   },
   {
-    "Nome Comune": "San Cono",
+    "Nome Comune": "San Giovanni La Punta",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -731,7 +748,7 @@
     "Numero Famiglie": 9004
   },
   {
-    "Nome Comune": "San Giovanni La Punta",
+    "Nome Comune": "San Gregorio di Catania",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -748,7 +765,7 @@
     "Numero Famiglie": 4701
   },
   {
-    "Nome Comune": "San Gregorio di Catania",
+    "Nome Comune": "San Michele di Ganza",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -765,7 +782,7 @@
     "Numero Famiglie": 1418
   },
   {
-    "Nome Comune": "San Michele di Ganza",
+    "Nome Comune": "San Pietro di Clarenza",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -782,7 +799,7 @@
     "Numero Famiglie": 2909
   },
   {
-    "Nome Comune": "San Pietro di Clarenza",
+    "Nome Comune": "Santa Maria di Licodia",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -799,7 +816,7 @@
     "Numero Famiglie": 4049
   },
   {
-    "Nome Comune": "Santa Maria di Licodia",
+    "Nome Comune": "Santa Venerina",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -816,7 +833,7 @@
     "Numero Famiglie": 642
   },
   {
-    "Nome Comune": "Santa Venerina",
+    "Nome Comune": "Sant'Agata Li Battiati",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -833,23 +850,6 @@
     "Numero Famiglie": 2927
   },
   {
-    "Nome Comune": "Sant'Agata Li Battiati",
-    "Prov.": "CT",
-    "Link pagina Instagram": "",
-    "Followers": "",
-    "Following": "",
-    "Post": "",
-    "Frequenza": "",
-    "Numero di hashtag": "",
-    "Followers/Residenti": "0,00",
-    "Latitudine": 37.7415805,
-    "Longitudine": 15.1429052,
-    "Comune": "Santa Venerina",
-    "Residenti": 8549,
-    "Densità per kmq": 455,
-    "Numero Famiglie": 3217
-  },
-  {
     "Nome Comune": "Sant'Alfio",
     "Prov.": "CT",
     "Link pagina Instagram": "https://www.instagram.com/comunedisantalfio/?igshid=1cgmpdf0ufhfr",
@@ -859,12 +859,12 @@
     "Frequenza": "Bassa",
     "Numero di hashtag": "",
     "Followers/Residenti": "0,03",
-    "Latitudine": 37.2964289,
-    "Longitudine": 14.8462387,
-    "Comune": "Scordia",
-    "Residenti": 17038,
-    "Densità per kmq": 702,
-    "Numero Famiglie": 6478
+    "Latitudine": 37.7415805,
+    "Longitudine": 15.1429052,
+    "Comune": "Santa Venerina",
+    "Residenti": 8549,
+    "Densità per kmq": 455,
+    "Numero Famiglie": 3217
   },
   {
     "Nome Comune": "Scordia",
@@ -876,6 +876,23 @@
     "Frequenza": "Media",
     "Numero di hashtag": "meno di cento post",
     "Followers/Residenti": "0,05",
+    "Latitudine": 37.2964289,
+    "Longitudine": 14.8462387,
+    "Comune": "Scordia",
+    "Residenti": 17038,
+    "Densità per kmq": 702,
+    "Numero Famiglie": 6478
+  },
+  {
+    "Nome Comune": "Treccastagni",
+    "Prov.": "CT",
+    "Link pagina Instagram": "",
+    "Followers": "",
+    "Following": "",
+    "Post": "",
+    "Frequenza": "",
+    "Numero di hashtag": "",
+    "Followers/Residenti": "0,00",
     "Latitudine": 37.61965,
     "Longitudine": 15.07903,
     "Comune": "Trecastagni",
@@ -884,7 +901,7 @@
     "Numero Famiglie": 4481
   },
   {
-    "Nome Comune": "Treccastagni",
+    "Nome Comune": "Tremestieri Etneo",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -901,7 +918,7 @@
     "Numero Famiglie": 8067
   },
   {
-    "Nome Comune": "Tremestieri Etneo",
+    "Nome Comune": "Valverde",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -918,7 +935,7 @@
     "Numero Famiglie": 2995
   },
   {
-    "Nome Comune": "Valverde",
+    "Nome Comune": "Viagrande",
     "Prov.": "CT",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -935,23 +952,6 @@
     "Numero Famiglie": 3346
   },
   {
-    "Nome Comune": "Viagrande",
-    "Prov.": "CT",
-    "Link pagina Instagram": "",
-    "Followers": "",
-    "Following": "",
-    "Post": "",
-    "Frequenza": "",
-    "Numero di hashtag": "",
-    "Followers/Residenti": "0,00",
-    "Latitudine": 37.161991,
-    "Longitudine": 14.75076,
-    "Comune": "Vizzini",
-    "Residenti": 6164,
-    "Densità per kmq": 49,
-    "Numero Famiglie": 2616
-  },
-  {
     "Nome Comune": "Vizzini",
     "Prov.": "CT",
     "Link pagina Instagram": "https://www.instagram.com/comunedivizzini/?igshid=1snvpaxd35mvc",
@@ -961,6 +961,23 @@
     "Frequenza": "Bassa",
     "Numero di hashtag": "100+",
     "Followers/Residenti": "0,06",
+    "Latitudine": 37.161991,
+    "Longitudine": 14.75076,
+    "Comune": "Vizzini",
+    "Residenti": 6164,
+    "Densità per kmq": 49,
+    "Numero Famiglie": 2616
+  },
+  {
+    "Nome Comune": "Zafferana Etnea",
+    "Prov.": "CT",
+    "Link pagina Instagram": "",
+    "Followers": "",
+    "Following": "",
+    "Post": "",
+    "Frequenza": "",
+    "Numero di hashtag": "",
+    "Followers/Residenti": "0,00",
     "Latitudine": 37.69041,
     "Longitudine": 15.10517,
     "Comune": "Zafferana Etnea",
@@ -969,8 +986,8 @@
     "Numero Famiglie": 3910
   },
   {
-    "Nome Comune": "Zafferana Etnea",
-    "Prov.": "CT",
+    "Nome Comune": "Agrigento",
+    "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
     "Following": "",
@@ -986,7 +1003,7 @@
     "Numero Famiglie": 24053
   },
   {
-    "Nome Comune": "Agrigento",
+    "Nome Comune": "Sciacca",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1003,7 +1020,7 @@
     "Numero Famiglie": 15851
   },
   {
-    "Nome Comune": "Sciacca",
+    "Nome Comune": "Licata",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1020,7 +1037,7 @@
     "Numero Famiglie": 14764
   },
   {
-    "Nome Comune": "Licata",
+    "Nome Comune": "Canicattì",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1037,7 +1054,7 @@
     "Numero Famiglie": 13849
   },
   {
-    "Nome Comune": "Canicattì",
+    "Nome Comune": "Favara",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1054,7 +1071,7 @@
     "Numero Famiglie": 11370
   },
   {
-    "Nome Comune": "Favara",
+    "Nome Comune": "Palma di Montechiaro",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1071,7 +1088,7 @@
     "Numero Famiglie": 8434
   },
   {
-    "Nome Comune": "Palma di Montechiaro",
+    "Nome Comune": "Ribera",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1088,7 +1105,7 @@
     "Numero Famiglie": 7612
   },
   {
-    "Nome Comune": "Ribera",
+    "Nome Comune": "Porto Empedocle",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1105,7 +1122,7 @@
     "Numero Famiglie": 6398
   },
   {
-    "Nome Comune": "Porto Empedocle",
+    "Nome Comune": "Raffadali",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1122,23 +1139,6 @@
     "Numero Famiglie": 5031
   },
   {
-    "Nome Comune": "Raffadali",
-    "Prov.": "AG",
-    "Link pagina Instagram": "",
-    "Followers": "",
-    "Following": "",
-    "Post": "",
-    "Frequenza": "",
-    "Numero di hashtag": "",
-    "Followers/Residenti": "0,00",
-    "Latitudine": 37.606639,
-    "Longitudine": 12.967843,
-    "Comune": "Menfi",
-    "Residenti": 12534,
-    "Densità per kmq": 111,
-    "Numero Famiglie": 5027
-  },
-  {
     "Nome Comune": "Menfi",
     "Prov.": "AG",
     "Link pagina Instagram": "https://instagram.com/comunedimenfi?igshid=1ugqcz9g28qp5",
@@ -1148,6 +1148,23 @@
     "Frequenza": "Bassa",
     "Numero di hashtag": "Meno di 100",
     "Followers/Residenti": "0,06",
+    "Latitudine": 37.606639,
+    "Longitudine": 12.967843,
+    "Comune": "Menfi",
+    "Residenti": 12534,
+    "Densità per kmq": 111,
+    "Numero Famiglie": 5027
+  },
+  {
+    "Nome Comune": "Ravanusa",
+    "Prov.": "AG",
+    "Link pagina Instagram": "",
+    "Followers": "",
+    "Following": "",
+    "Post": "",
+    "Frequenza": "",
+    "Numero di hashtag": "",
+    "Followers/Residenti": "0,00",
     "Latitudine": 37.2679139,
     "Longitudine": 13.9732545,
     "Comune": "Ravanusa",
@@ -1156,7 +1173,7 @@
     "Numero Famiglie": 4310
   },
   {
-    "Nome Comune": "Ravanusa",
+    "Nome Comune": "Campobello di Licata",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1173,7 +1190,7 @@
     "Numero Famiglie": 3951
   },
   {
-    "Nome Comune": "Campobello di Licata",
+    "Nome Comune": "Aragona",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1190,7 +1207,7 @@
     "Numero Famiglie": 3674
   },
   {
-    "Nome Comune": "Aragona",
+    "Nome Comune": "Racalmuto",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1207,7 +1224,7 @@
     "Numero Famiglie": 3192
   },
   {
-    "Nome Comune": "Racalmuto",
+    "Nome Comune": "Casteltermini",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1224,7 +1241,7 @@
     "Numero Famiglie": 3273
   },
   {
-    "Nome Comune": "Casteltermini",
+    "Nome Comune": "San Giovanni Gemini",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1241,23 +1258,6 @@
     "Numero Famiglie": 3034
   },
   {
-    "Nome Comune": "San Giovanni Gemini",
-    "Prov.": "AG",
-    "Link pagina Instagram": "",
-    "Followers": "",
-    "Following": "",
-    "Post": "",
-    "Frequenza": "",
-    "Numero di hashtag": "",
-    "Followers/Residenti": "0,00",
-    "Latitudine": 37.29622,
-    "Longitudine": 13.7915674,
-    "Comune": "Naro",
-    "Residenti": 7658,
-    "Densità per kmq": 37,
-    "Numero Famiglie": 3226
-  },
-  {
     "Nome Comune": "Naro",
     "Prov.": "AG",
     "Link pagina Instagram": "https://instagram.com/comunenaroagit?igshid=16nl5ak9k0y2j",
@@ -1267,6 +1267,23 @@
     "Frequenza": "Alta",
     "Numero di hashtag": "Meno di 100",
     "Followers/Residenti": "0,13",
+    "Latitudine": 37.29622,
+    "Longitudine": 13.7915674,
+    "Comune": "Naro",
+    "Residenti": 7658,
+    "Densità per kmq": 37,
+    "Numero Famiglie": 3226
+  },
+  {
+    "Nome Comune": "Lampedusa e Linosa",
+    "Prov.": "AG",
+    "Link pagina Instagram": "",
+    "Followers": "",
+    "Following": "",
+    "Post": "",
+    "Frequenza": "",
+    "Numero di hashtag": "",
+    "Followers/Residenti": "0,00",
     "Latitudine": 35.6849081,
     "Longitudine": 12.7352142,
     "Comune": "Lampedusa e Linosa",
@@ -1275,7 +1292,7 @@
     "Numero Famiglie": 2606
   },
   {
-    "Nome Comune": "Lampedusa e Linosa",
+    "Nome Comune": "Santa Margherita di Belice",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1292,7 +1309,7 @@
     "Numero Famiglie": 2661
   },
   {
-    "Nome Comune": "Santa Margherita di Belice",
+    "Nome Comune": "Cammarata",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1309,7 +1326,7 @@
     "Numero Famiglie": 2432
   },
   {
-    "Nome Comune": "Cammarata",
+    "Nome Comune": "Sambuca di Sicilia",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1326,7 +1343,7 @@
     "Numero Famiglie": 2348
   },
   {
-    "Nome Comune": "Sambuca di Sicilia",
+    "Nome Comune": "Grotte",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1343,7 +1360,7 @@
     "Numero Famiglie": 2247
   },
   {
-    "Nome Comune": "Grotte",
+    "Nome Comune": "Santo Stefano Quisquina",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1360,7 +1377,7 @@
     "Numero Famiglie": 2035
   },
   {
-    "Nome Comune": "Santo Stefano Quisquina",
+    "Nome Comune": "Realmonte",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1377,7 +1394,7 @@
     "Numero Famiglie": 1901
   },
   {
-    "Nome Comune": "Realmonte",
+    "Nome Comune": "Siculiana",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1394,7 +1411,7 @@
     "Numero Famiglie": 1366
   },
   {
-    "Nome Comune": "Siculiana",
+    "Nome Comune": "Cattolica Eraclea",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1411,7 +1428,7 @@
     "Numero Famiglie": 1613
   },
   {
-    "Nome Comune": "Cattolica Eraclea",
+    "Nome Comune": "Bivona",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1428,7 +1445,7 @@
     "Numero Famiglie": 1623
   },
   {
-    "Nome Comune": "Bivona",
+    "Nome Comune": "Caltabellotta",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1445,7 +1462,7 @@
     "Numero Famiglie": 1560
   },
   {
-    "Nome Comune": "Caltabellotta",
+    "Nome Comune": "Cianciana",
     "Prov.": "AG",
     "Link pagina Instagram": "",
     "Followers": "",
@@ -1460,23 +1477,6 @@
     "Residenti": 3422,
     "Densità per kmq": 91,
     "Numero Famiglie": 1467
-  },
-  {
-    "Nome Comune": "Cianciana",
-    "Prov.": "AG",
-    "Link pagina Instagram": "",
-    "Followers": "",
-    "Following": "",
-    "Post": "",
-    "Frequenza": "",
-    "Numero di hashtag": "",
-    "Followers/Residenti": "0,00",
-    "Latitudine": 37.5090143,
-    "Longitudine": 13.524282,
-    "Comune": "San Biagio Platani",
-    "Residenti": 3275,
-    "Densità per kmq": 77,
-    "Numero Famiglie": 1379
   },
   {
     "Nome Comune": "Montevago",
